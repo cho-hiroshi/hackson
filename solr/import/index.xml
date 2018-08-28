@@ -1,0 +1,10 @@
+<add>
+<doc><field name="id">1</field><field name="title">title1</field><field name="session">session1</field><field name="sentence">lifhewivhnlwivne;vn</field></doc>
+<doc><field name="id">2</field><field name="title">title1</field><field name="session">session1</field><field name="sentence">wevhweilvn</field></doc>
+<doc><field name="id">3</field><field name="title">title1</field><field name="session">session2</field><field name="sentence">kcewhnlkjcnvbwel</field></doc>
+<doc><field name="id">4</field><field name="title">title1</field><field name="session">session3</field><field name="sentence">hwvoh</field></doc>
+<doc><field name="id">5</field><field name="title">title2</field><field name="session">session1</field><field name="sentence">22hljkvhkwelifhewivhnlwivne;vn</field></doc>
+<doc><field name="id">6</field><field name="title">title2</field><field name="session">session1</field><field name="sentence">222wevhwei</field></doc>
+<doc><field name="id">7</field><field name="title">title2</field><field name="session">session2</field><field name="sentence">kcewhvekvlnevkjcnvbwel</field></doc>
+<doc><field name="id">8</field><field name="title">title2</field><field name="session">session3</field><field name="sentence">veefe b</field></doc>
+</add>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<dataConfig>
+<dataSource type="FileDataSource" encoding="UTF-8" />
+<document>
+        <entity name="importdir"
+                processor="FileListEntityProcessor"
+                baseDir="/opt/solr/import"
+                fileName="*.xml"
+                recursive="True"
+                rootEntity="false"
+                dataSource="null"  >
+        <entity name="readmedocs"
+        	    processor="XPathEntityProcessor"
+                stream="true"
+                forEach="/add/doc/"
+		url="/opt/solr/import"
+            >
+            <field column="id"        xpath="/add/doc/id" />
+            <field column="title"     xpath="/add/doc/title" />
+            <field column="sentence"  xpath="/add/doc/sentence" />
+        </entity>
+    </entity>
+</document>
+</dataConfig>

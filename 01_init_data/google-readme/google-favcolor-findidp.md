@@ -1,4 +1,0 @@
-findIDP
-=======
-
-Identity-Provider finder.

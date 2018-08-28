@@ -1,0 +1,12 @@
+<add>
+  <doc>
+  <field name="id">1</field>
+  <field name="title">Solr adds block join support</field>
+  <field name="sentence">parentDocument is the to sentence</field>
+  </doc>
+  <doc>
+  <field name="id">3</field>
+  <field name="title">New Lucene and Solr release is out</field>
+  <field name="sentence">parentDocument 2 is here</field>
+  </doc>
+</add>

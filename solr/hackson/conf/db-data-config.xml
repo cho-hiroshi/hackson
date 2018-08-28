@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<dataConfig>
+<dataSource type="FileDataSource" encoding="UTF-8" />
+<document>
+        <entity name="readmedocs"
+        	processor="XPathEntityProcessor"
+                stream="true"
+                forEach="/add/doc/"
+		url="/opt/solr/import/index.xml" >
+            <field column="id"        xpath="/add/doc/id" />
+	    <field column="session"   xpath="/add/doc/session" />
+            <field column="title"     xpath="/add/doc/title" />
+            <field column="sentence"  xpath="/add/doc/sentence" />
+        </entity>
+</document>
+</dataConfig>
